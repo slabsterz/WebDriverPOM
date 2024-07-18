@@ -18,14 +18,16 @@ namespace StudentRegistryPOM.Pages
 
         public List<string> GetStudentsList()
         {
-            var studentNames = new List<string>();
+            //return AllStudents.Select(x => x.Text).ToArray();
 
-            foreach (var student in AllStudents)
+            List<string> sting = new List<string>();
+
+            foreach(var student in AllStudents)
             {
-                studentNames.Append(student.Text);
+                sting.Add(student.Text);
             }
 
-            return studentNames;
+            return sting;
         }
     }
 }

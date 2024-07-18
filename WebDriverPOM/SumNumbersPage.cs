@@ -5,7 +5,7 @@ namespace WebDriverPOM
 {
     public class SumNumbersPage
     {
-        public static readonly string Url = "https://fc9169bc-5b6d-467b-b12b-c26e539e3a9f-00-2xfvw0d1idamh.worf.replit.dev/";
+        public static readonly string Url = "https://41b68512-6216-4e69-9c7a-446e51ffb237-00-297pyj4m4p8p4.spock.replit.dev/";
 
         private IWebDriver driver;
 
